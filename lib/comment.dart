@@ -13,7 +13,7 @@ class _CommentState extends State<Comment> {
     return Container(
       child:Column(
         children: [
-          Text('comment as $user.name',
+          Text('comment as user.name',
           style:TextStyle(
            fontSize: 20,
            fontWeight:FontWeight.w500 
@@ -26,8 +26,7 @@ class _CommentState extends State<Comment> {
            ), 
           ),
           ListTile(
-            leading: Text(comment.name),
-            body:
+            leading: Text('name'),
 
           )
         ],

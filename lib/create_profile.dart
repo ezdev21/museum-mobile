@@ -25,9 +25,11 @@ class _CreateProfileState extends State<CreateProfile> {
             child: Text(
               'complete profile',
               style:TextStyle(
-                background: Colors.green,
-                color:
-              )))
+                backgroundColor: Colors.green,
+                color:Colors.white
+              )
+              )
+              )
         ],
       ),
     );
