@@ -14,10 +14,24 @@ class _CreateProfileState extends State<CreateProfile> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          TextField(),
-          TextField(),
-          TextField(),
-          TextField(),
+          Text('phone number',style:TextStyle(fontSize:25,fontWeight:FontWeight.bold)),
+          SizedBox(height:20),
+          TextField(
+            decoration:textInputDecoration.copyWith(labelText:'phone',hintText:'phone number'),
+            controller:_productNameController,
+          ),
+          Text('city',style:TextStyle(fontSize:25,fontWeight:FontWeight.bold)),
+          SizedBox(height:20),
+          TextField(
+            decoration:textInputDecoration.copyWith(labelText:'city',hintText:'city'),
+            controller:_productNameController,
+          ),
+          Text('street',style:TextStyle(fontSize:25,fontWeight:FontWeight.bold)),
+          SizedBox(height:20),
+          TextField(
+            decoration:textInputDecoration.copyWith(labelText:'street',hintText:'street'),
+            controller:_productNameController,
+          ),
           TextButton(
             onPressed: (){
 
