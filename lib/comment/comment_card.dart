@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Comment extends StatefulWidget {
-  const Comment({ Key? key }) : super(key: key);
+class CommentCard extends StatefulWidget {
+  const CommentCard({ Key? key }) : super(key: key);
 
   @override
-  _CommentState createState() => _CommentState();
+  _CommentCardState createState() => _CommentCardState();
 }
 
-class _CommentState extends State<Comment> {
+class _CommentCardState extends State<CommentCard> {
   @override
   Widget build(BuildContext context) {
     return Container(
